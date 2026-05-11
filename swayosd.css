@@ -4,6 +4,16 @@
 @define-color image #C5C9C7;
 @define-color progress #e6c384;
 
+/* Cancel out Omarchy settings */
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-width: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
 
 /* Draw a new background */
 window:not(:backdrop) #container,
