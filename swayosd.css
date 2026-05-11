@@ -21,7 +21,7 @@ window:backdrop #container {
     border: 2px solid @border-color;
     border-radius: 0px;
     background-color: @background-color;
-    padding: 14px;
+    padding: 20px;
     background-clip: padding-box;
 
 }
