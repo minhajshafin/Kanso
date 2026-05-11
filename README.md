@@ -1,8 +1,33 @@
 # Kanso - Barebone
 
-Copied from - [HANCORE](https://github.com/HANCORE-linux/omarchy-kanso-theme.git)
+A minimal Omarchy theme with calm Kanagawa-inspired colors for a clean, low-noise desktop.
 
+![Preview](preview.png)
 
-## Color Scheme Description 
-Kansō is a color scheme that invites focus, not attention. Inspired by the rustic, traditional palette of Kanagawa, Kansō refines those tones into a more balanced visual hierarchy. It is designed to reduce visual noise and eye strain, creating a calm, 'Zen-like' environment for deep work.
+## Install
+
+#### Requirements: Omarchy environment (Hyprland + Waybar setup).
+#### To install this theme, simply use the omarchy-theme-install command:
+
+```bash
+omarchy-theme-install https://github.com/minhajshafin/Kanso.git
+```
+
+## Included
+
+- `hyprland.conf` - Hyprland settings
+- `waybar.css` - Waybar styling
+- `colors.toml` - shared colors
+- `neovim.lua` - Neovim theme config
+- `vscode.json` - VS Code theme settings
+- `*.theme`, `swayosd.css`, `backgrounds/` - app/theme assets
+
+## Credits
+
+- Original base: [HANCORE](https://github.com/HANCORE-linux/omarchy-kanso-theme.git)
+- This repo: stripped-down and adjusted for a barebone Omarchy setup
+
+## License
+
+Licensed under the terms in [LICENSE](LICENSE).
 
