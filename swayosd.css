@@ -1,5 +1,5 @@
 @define-color background-color #090E13;
-@define-color border-color #43464E;
+@define-color border-color #C5C9C7;
 @define-color label #C5C9C7;
 @define-color image #C5C9C7;
 @define-color progress #e6c384;
@@ -18,7 +18,7 @@ window:backdrop {
 /* Draw a new background */
 window:not(:backdrop) #container,
 window:backdrop #container {
-    border: 4px solid @border-color;
+    border: 3px solid @border-color;
     border-radius: 0px;
     background-color: @background-color;
     padding: 20px;
