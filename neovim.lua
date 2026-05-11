@@ -1,6 +1,6 @@
 return {
   {
-    "webhooked/kanso.nvim",
+    "projekt0n/github-nvim-theme",
     lazy = false,      
     priority = 1000,  
   },
@@ -8,7 +8,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanso-zen",
+      colorscheme = "github_dark_default",
     },
   },
 }
